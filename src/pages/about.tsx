@@ -50,6 +50,7 @@ const About: React.FunctionComponent = () => (
               </p>
               <p>
                 I'm open for any kind of projects that you may have, so feel free to contact me <a href="mailto:owenhalliday1@gmail.com?Subject=Hello!" target="_top">via email</a>.
+                Also, if you would like to ask me anything, don't be afraid to contact me via Twitter <a href="https://twitter.com/owenhalliday1" target="_top">@owenhalliday1</a>. 
               </p>
             </div>
           </PostFullContent>
