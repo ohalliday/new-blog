@@ -38,6 +38,11 @@ export interface WebsiteConfig {
   mailchimpEmailFieldName?: string;
   /**
   /**
+   * Meta tag for Google Webmaster Tools
+   */
+  googleSiteVerification?: string;
+  /**
+  /**
    * Appears alongside the footer, after the credits
    */
   footer?: string;
