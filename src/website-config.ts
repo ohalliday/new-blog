@@ -58,8 +58,8 @@ const config: WebsiteConfig = {
   facebook: 'https://www.facebook.com/owenhalliday.co.uk',
   twitter: 'https://twitter.com/owenhalliday1',
   showSubscribe: true,
-  mailchimpAction: 'https://twitter.us19.list-manage.com/subscribe/post?u=a89b6987ac248c81b0b7f3a0f&amp;id=7d777b7d75',
-  mailchimpName: 'b_a89b6987ac248c81b0b7f3a0f_7d777b7d75',
+  mailchimpAction: 'https://gmail.us20.list-manage.com/subscribe/post?u=495c232084f291d2604a7042f&amp;id=b4e5612d1d',
+  mailchimpName: 'b_495c232084f291d2604a7042f_b4e5612d1d',
   mailchimpEmailFieldName: 'MERGE0',
   footer: '',
 };
