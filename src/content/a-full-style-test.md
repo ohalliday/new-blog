@@ -3,12 +3,12 @@ layout: post
 title: An Introduction to Mobile Development in Flutter
 image: img/iphone-410324.jpg
 author: Owen
-date: 2019-05-05T07:03:47.149Z
+date: 2019-12-05T07:03:47.149Z
 tags: 
   - Flutter
 ---
 
-Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
+Let me guess, you love developing mobile applications, but hate the fact that you need to builsold 
 
 ---
 
@@ -187,3 +187,6 @@ Isn't it beautiful.
 
 *[HTML]: Hyper Text Markup Language
 *[CSS]: Cascading Style Sheets
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTQwMDg0NjI5Nl19
+-->
