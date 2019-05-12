@@ -8,7 +8,7 @@ tags:
   - Flutter
 ---
 
-Let me guess, you love developing mobile applications, but hate the fact that you need to builsold 
+Let me guess, you love developing mobile applications, but hate the fact that you need to have multiple code bases for a single application. Also, when you make a
 
 ---
 
@@ -188,5 +188,5 @@ Isn't it beautiful.
 *[HTML]: Hyper Text Markup Language
 *[CSS]: Cascading Style Sheets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMDg0NjI5Nl19
+eyJoaXN0b3J5IjpbNjg2OTg2Mjk4XX0=
 -->
