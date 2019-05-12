@@ -22,6 +22,7 @@ import {
 } from '../styles/shared';
 import { PageContext } from '../templates/post';
 
+
 const HomePosts = css`
   @media (min-width: 795px) {
     .post-card:nth-of-type(6n + 1):not(.no-image) {
@@ -141,7 +142,10 @@ const IndexPage: React.FunctionComponent<IndexProps> = props => {
                   config.title
                 )}
               </SiteTitle>
-              <SiteDescription>{config.description}</SiteDescription>
+              <SiteDescription>
+              {config.description}
+              
+              </SiteDescription>
             </SiteHeaderContent>
             <SiteNav isHome />
           </div>
