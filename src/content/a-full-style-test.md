@@ -8,7 +8,9 @@ tags:
   - Flutter
 ---
 
-Let me guess, you love developing mobile applications, but hate the fact that you need to have multiple code bases for a single application. Also, when you make a
+Let me guess, you love developing mobile applications, but hate the fact that you need to have multiple code bases for a single application. Also, when you make a change for one platform, it doesn't synchronise with the other and you end up running into errors.
+
+You've tried using cross-platform 
 
 ---
 
@@ -188,5 +190,5 @@ Isn't it beautiful.
 *[HTML]: Hyper Text Markup Language
 *[CSS]: Cascading Style Sheets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg2OTg2Mjk4XX0=
+eyJoaXN0b3J5IjpbNDg1Mzc5NTE4XX0=
 -->
