@@ -12,7 +12,7 @@ Let me guess, you love developing mobile applications, but hate the fact that yo
 
 You've tried using cross-platform frameworks such as React Native, Ionic and NativeScript, but you always have to compromise. That's where Flutter comes in.
 
-Flutter is an evolving cross-platform mobile framework made by Google
+Flutter is an evolving cross-platform mobile developement framework made by Google. It allows you to create beautiful, cross-platform mobile applications with native performance, all from one codebase.
 
 ---
 
@@ -192,5 +192,5 @@ Isn't it beautiful.
 *[HTML]: Hyper Text Markup Language
 *[CSS]: Cascading Style Sheets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNzE0MDc5NV19
+eyJoaXN0b3J5IjpbMTQ5ODUyMTY2NF19
 -->
