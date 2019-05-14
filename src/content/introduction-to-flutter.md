@@ -18,6 +18,10 @@ Flutter is an new and evolving cross-platform mobile development framework made 
 
 Its support for hot reloading allows a developer to quickly experiment and add features with split-second reloading times. This can speed up the development progress of applications substantially, setting Flutter apart from similar frameworks.
 
+Flutter takes advantage of many different techniques in order to achieve high performance and productivity. These include:
+
+
+
 
 
 Lorem ipsum dolor sit amet, [test link]() adipiscing elit. **This is strong.** Nullam dignissim convallis est. Quisque aliquam. _This is emphasized._ Donec faucibus. Nunc iaculis suscipit dui. 5<sup>3</sup> = 125. Water is H<sub>2</sub>O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. <cite>The New York Times</cite> (That’s a citation). <span style="text-decoration:underline;">Underline</span>. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
@@ -182,6 +186,7 @@ Isn't it beautiful.
 *[HTML]: Hyper Text Markup Language
 *[CSS]: Cascading Style Sheets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzI3NzY0MDUsLTE0NTgxNzU3NDcsMT
-M1MzE0MjM4NywxMjY1MzQwNDA0LDE0OTg1MjE2NjRdfQ==
+eyJoaXN0b3J5IjpbMTI3MzQwOTc3LC0xODMyNzc2NDA1LC0xND
+U4MTc1NzQ3LDEzNTMxNDIzODcsMTI2NTM0MDQwNCwxNDk4NTIx
+NjY0XX0=
 -->
