@@ -20,7 +20,7 @@ Its support for hot reloading allows a developer to quickly experiment and add f
 
 Flutter takes advantage of many different techniques in order to achieve high performance and productivity. These include:
 
-
+- Compiling to native code. B
 
 
 
@@ -186,7 +186,7 @@ Isn't it beautiful.
 *[HTML]: Hyper Text Markup Language
 *[CSS]: Cascading Style Sheets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MzQwOTc3LC0xODMyNzc2NDA1LC0xND
-U4MTc1NzQ3LDEzNTMxNDIzODcsMTI2NTM0MDQwNCwxNDk4NTIx
-NjY0XX0=
+eyJoaXN0b3J5IjpbLTc3NTIwMjQ1MSwtMTgzMjc3NjQwNSwtMT
+Q1ODE3NTc0NywxMzUzMTQyMzg3LDEyNjUzNDA0MDQsMTQ5ODUy
+MTY2NF19
 -->
