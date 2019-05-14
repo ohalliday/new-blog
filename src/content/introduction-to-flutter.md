@@ -27,6 +27,7 @@ Flutter takes advantage of many different techniques in order to achieve high pe
 
 ## What kind of things can I build with Flutter?
 
+Flutter is optimised to create 2D mobile apps that run on both Android and iOS. However, recent news shows that Flutter is expanding to 
 HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. To copy a file type `COPY filename`. <del>Dinner’s at 5:00.</del> <span style="text-decoration:underline;">Let’s make that 7</span>. This <del>text</del> has been struck.
 
 ---
@@ -187,7 +188,7 @@ Isn't it beautiful.
 *[HTML]: Hyper Text Markup Language
 *[CSS]: Cascading Style Sheets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEyNzMyMTI4LC01MzA2OTA2MzAsMTE0MT
+eyJoaXN0b3J5IjpbLTU5ODU5MTEyLC01MzA2OTA2MzAsMTE0MT
 I5MjcwMywtMTgzMjc3NjQwNSwtMTQ1ODE3NTc0NywxMzUzMTQy
 Mzg3LDEyNjUzNDA0MDQsMTQ5ODUyMTY2NF19
 -->
