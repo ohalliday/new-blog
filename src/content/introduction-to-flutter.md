@@ -1,6 +1,6 @@
 ---
 layout: post
-title: An Introduction to Mobile Development in Flutter
+title: An Introduction to Flutter
 image: img/iphone-410324.jpg
 author: Owen
 date: 2019-12-05T07:03:47.149Z
@@ -186,7 +186,7 @@ Isn't it beautiful.
 *[HTML]: Hyper Text Markup Language
 *[CSS]: Cascading Style Sheets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MTI5MjcwMywtMTgzMjc3NjQwNSwtMT
-Q1ODE3NTc0NywxMzUzMTQyMzg3LDEyNjUzNDA0MDQsMTQ5ODUy
-MTY2NF19
+eyJoaXN0b3J5IjpbMTQzMTIzNjExOSwxMTQxMjkyNzAzLC0xOD
+MyNzc2NDA1LC0xNDU4MTc1NzQ3LDEzNTMxNDIzODcsMTI2NTM0
+MDQwNCwxNDk4NTIxNjY0XX0=
 -->
