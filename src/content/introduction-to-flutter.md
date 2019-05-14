@@ -16,7 +16,7 @@ You've tried using cross-platform frameworks such as React Native, Ionic and Nat
 ---
 Flutter is an new and evolving cross-platform mobile development framework made by Google. It allows you to create beautiful, cross-platform mobile applications with native performance, all from one codebase.
 
-Its support for hot reloading allows a developer to quickly experiment and add features with split-second reloading times. This can speed up the development progress of applications substantially, setting Flutter apart from similar frameworks.
+Its support for **hot reloading** allows a developer to quickly experiment and add features with split-second reloading times. This can speed up the development progress of applications substantially, setting Flutter apart from similar frameworks.
 
 Flutter takes advantage of many different techniques in order to achieve high performance and productivity. These include:
 
@@ -186,7 +186,7 @@ Isn't it beautiful.
 *[HTML]: Hyper Text Markup Language
 *[CSS]: Cascading Style Sheets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNDAyMDUxMSwtMTgzMjc3NjQwNSwtMT
+eyJoaXN0b3J5IjpbMTE0MTI5MjcwMywtMTgzMjc3NjQwNSwtMT
 Q1ODE3NTc0NywxMzUzMTQyMzg3LDEyNjUzNDA0MDQsMTQ5ODUy
 MTY2NF19
 -->
