@@ -15,7 +15,7 @@ Let me guess, you love developing mobile applications, but hate the fact that yo
 You've tried using cross-platform frameworks such as React Native, Ionic and NativeScript, but you always have to compromise. That's where Flutter comes in.
 # What is Flutter?
 ---
-Flutter is an new and evolving cross-platform mobile development framework made by Google. It allows you to create beautiful, cross-platform mobile applications with native performance, all from one codebase.
+Flutter is a new and evolving cross-platform mobile development framework made by Google. It allows you to create beautiful, cross-platform mobile applications with native performance, all from one codebase.
 
 Its support for **hot reloading** allows a developer to quickly experiment and add features with split-second reloading times. This can speed up the development progress of applications substantially, setting Flutter apart from similar frameworks.
 
@@ -141,7 +141,7 @@ body: Center(
       fontWeight: FontWeight.bold,
       color: Colors.red
       ))
-        ),
+   ),
 
 ```
 
@@ -155,7 +155,7 @@ Our application is starting to really come together now!
 
 Great! We've now set up our system for Flutter development and created our very first application! We've integrated a `Text` widget and even added some styling.
 
-Be sure to subscribe, becuase there will be more Flutter content in the future! <3
+Be sure to subscribe, because there will be more Flutter content in the future! <3
 
 The source code for the project can be found here:
 
