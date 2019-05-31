@@ -160,14 +160,3 @@ Be sure to subscribe, because there will be more Flutter content in the future! 
 The source code for the project can be found here:
 
 [https://github.com/ohalliday/intro-to-flutter](https://github.com/ohalliday/intro-to-flutter)
-
-
-
-
-
-
-
-
-
-
-
