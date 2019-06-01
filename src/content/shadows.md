@@ -3,7 +3,7 @@ layout: post
 title: "Text Shadows in Flutter"
 author: Owen
 tags: ["Flutter"]
-image: img/welcome-to-ghost.jpg
+image: img/screen.jpg
 date: "2019-05-30T23:46:37.121Z"
 draft: false
 ---
