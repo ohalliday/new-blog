@@ -146,4 +146,4 @@ In this post we've learned how to apply a shadow to a `Text` widget, we've explo
 I hope you've taken a lot from this post, and don't forget to subscribe for future Flutter content! <3
 
 >The source code for this project can be found here:
->https://github.com/ohalliday/flutter-shadows`
+>[https://github.com/ohalliday/flutter-shadows](https://github.com/ohalliday/flutter-shadows)
