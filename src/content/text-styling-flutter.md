@@ -112,7 +112,7 @@ To add a new custom font to your app, create a `fonts` folder at the root of you
 
 ![File Folder Structure](img/text-styling/textstyling5.png)
 
-To work with our fonts, we're going to have to import the font files into our project. I'm going to be using Roboto Mono, but you can use any font that you may like!
+To work with our fonts, we're going to have to import the font files into our project. I'm going to be using Roboto Mono, but you can use any font that you like!
 
 Place your font files inside of the `fonts` folder you just created. Next up, we're going to have to declare our new custom font inside of our `pubspec.yaml`, so our Flutter application knows where to find it. For instance:
 
