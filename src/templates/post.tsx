@@ -285,6 +285,8 @@ const PageTemplate: React.FunctionComponent<PageTemplateProps> = props => {
                 </PostFullMeta>
                 <PostFullTitle>{post.frontmatter.title}</PostFullTitle>
               </PostFullHeader>
+              <div id="codefund"><!-- fallback content --></div>
+              <script src="https://codefund.io/properties/311/funder.js" async="async"></script>
 
               {(post.frontmatter.image && post.frontmatter.image.childImageSharp) && (
                 <PostFullImage>
