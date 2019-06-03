@@ -76,8 +76,7 @@ const Footer: React.FunctionComponent = () => {
           )}
         </section>
         <SiteFooterNav>
-        <div id="codefund"><!-- fallback content --></div>
-        <script src="https://codefund.io/properties/311/funder.js" async="async"></script>
+          
           <Link to="/">Latest Posts</Link>
           {config.facebook && (
             <a href={config.facebook} target="_blank" rel="noopener noreferrer">
