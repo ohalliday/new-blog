@@ -9,9 +9,6 @@ tags:
   - Mobile Development
 ---
 
-<div id="codefund"><!-- fallback content --></div>
-<script src="https://codefund.io/properties/311/funder.js" async="async"></script>
-
 In this post we'll be covering how to use gradients within Flutter. Gradients can make an application look beautiful, and they're simpler than ever to use in Flutter.
 
 >If you aren't familiar with Flutter, then you can check out my Introduction to Flutter post [here](https://owenhalliday.co.uk/introduction-to-flutter/).
@@ -167,9 +164,27 @@ As you can see, the fraction of our gradient has been pushed further down the bo
 
 We can also increase the amount of colours in our gradient, so let's do that:
 
+```dart
+body: Container(
+  decoration: BoxDecoration(
+    gradient: LinearGradient(
+      begin: Alignment.topLeft,
+      end: Alignment.bottomRight,
+      stops: [0.1, 0.3, 0.7, 1],
+      colors: [Colors.green, Colors.blue, Colors.orange, Colors.pink])
+  ),
+  child: Center(
+    child: Text('Gradients are cool!',
+      style: TextStyle(
+        fontSize: 35,
+        color: Colors.white,
+      ),
+    ),
+  ),
+),
 ```
 
-```
+We've now added 2 colours, orange and pink. We've also added two new values to our `stops` property and changed the point in which the colours in our gradient stop. Let's have a look at what we have now:
 
 Next up we're going to explore how to use **radial gradients** in Flutter.
 

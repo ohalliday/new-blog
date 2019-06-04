@@ -217,14 +217,6 @@ const ReadNextCard: React.FunctionComponent<ReadNextProps> = props => {
               {props.relatedPosts.totalCount === 1 && '1 post'}
               {props.relatedPosts.totalCount === 0 && 'No posts'} →
             </Link>
-            <script
-              dangerouslySetInnerHTML={{
-                __html: `
-                src="https://codefund.io/properties/311/funder.js"
-                async="async"
-              `,
-              }}
-            />
           </ReadNextCardFooter>
         </ReadNextCardStyles>
       )}

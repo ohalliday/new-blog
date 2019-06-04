@@ -4,6 +4,7 @@ import styled from '@emotion/styled';
 import RehypeReact from 'rehype-react';
 
 import { colors } from '../styles/colors';
+import AdCodeFund from './AdCodeFund';
 
 export const PostFullContent = styled.section`
   position: relative;
@@ -562,14 +563,7 @@ export interface PostContentProps {
 const PostContent: React.FunctionComponent<PostContentProps> = ({ htmlAst }) => {
   return (
     <PostFullContent className="post-full-content">
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
-          <div id="codefund"></div>
-          <script src="https://codefund.io/properties/311/funder.js" async="async"></script>
-          `,
-        }}
-      />
+    <AdCodeFund></AdCodeFund>
       {/* TODO: this will apply the class when rehype-react is published https://github.com/rhysd/rehype-react/pull/11 */}
       <Ast className="post-content" ast={htmlAst} />
     </PostFullContent>
