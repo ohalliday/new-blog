@@ -186,6 +186,39 @@ body: Container(
 
 We've now added 2 colours, orange and pink. We've also added two new values to our `stops` property and changed the point in which the colours in our gradient stop. Let's have a look at what we have now:
 
+![Application](img/gradients/gradient4.png)
+
+Cool huh? Our gradient now has 4 colours, and we can see where each of the them has been divided.
+
 Next up we're going to explore how to use **radial gradients** in Flutter.
 
 ## Radial Gradients
+
+Radial Gradients are quite similar to Linear Gradients, in that they take in properties such as `colors` and `stops`, but they also take in some other properties, such as `radius`, `focal` and `tileMode`. Let's implement a radial gradient into our application:
+
+```dart
+body: Container(
+  decoration: BoxDecoration(
+      gradient: RadialGradient(
+        colors: [Colors.green, Colors.blue]
+      ),
+      ),
+  child: Center(
+    child: Text(
+      'Gradients are cool!',
+      style: TextStyle(
+        fontSize: 35,
+        color: Colors.white,
+      ),
+    ),
+  ),
+),
+```
+
+As you can see, implementing a radial gradient is very simple. Let's have a look at our application:
+
+![Application](img/gradients/gradient5.png)
+
+Great! We can see that our gradient is fully working and is circle shaped, hence the name **radial**. Let's now try and change the appearance of our gradient by assigning some properties.
+
+We'll start by adding some more colours, as well as the `stops` property.

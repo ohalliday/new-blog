@@ -33,10 +33,11 @@ const About: React.FunctionComponent = () => (
         <article className="post page" css={[PostFull, NoImage]}>
           <PostFullHeader>
             <PostFullTitle>About</PostFullTitle>
+            <AdCodeFund></AdCodeFund>
           </PostFullHeader>
 
           <PostFullContent className="post-full-content">
-          <AdCodeFund></AdCodeFund>
+          
             <div className="post-content">
               <p>
                 Hey there! I'm Owen, a passionate software developer from the city of Sunderland, in England.
