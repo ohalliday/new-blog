@@ -19,7 +19,7 @@ class AdCodeFund extends React.Component {
         <span id="code-fund-script-slot" />
         <span id="codefund" />
       </React.Fragment>
-    );
+    );  
   }
 }
 

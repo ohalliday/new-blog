@@ -5,7 +5,6 @@ import { css } from '@emotion/core';
 
 import { outer, inner } from '../styles/shared';
 import config from '../website-config';
-import AdCodeFund from './AdCodeFund';
 
 const SiteFooter = css`
   position: relative;
@@ -90,7 +89,6 @@ const Footer: React.FunctionComponent = () => {
           )}
 
           <a href="/rss.xml">RSS</a>
-          <AdCodeFund></AdCodeFund>
         </SiteFooterNav>
 
         

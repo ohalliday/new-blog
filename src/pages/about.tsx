@@ -9,6 +9,7 @@ import { PostFullHeader, PostFullTitle, NoImage, PostFull } from '../templates/p
 import { PostFullContent } from '../components/PostContent';
 import Footer from '../components/Footer';
 import Helmet from 'react-helmet';
+import AdCodeFund from '../components/AdCodeFund';
 
 const PageTemplate = css`
   .site-main {
@@ -35,6 +36,7 @@ const About: React.FunctionComponent = () => (
           </PostFullHeader>
 
           <PostFullContent className="post-full-content">
+          <AdCodeFund></AdCodeFund>
             <div className="post-content">
               <p>
                 Hey there! I'm Owen, a passionate software developer from the city of Sunderland, in England.
