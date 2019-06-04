@@ -7,7 +7,7 @@ date: 2019-06-01T07:03:47.149Z
 tags: 
   - Flutter
   - Mobile Development
-draft: true
+draft:
 ---
 
 In this post we'll be covering how to use gradients within Flutter. Gradients can make an application look beautiful, and they're simpler than ever to use in Flutter.

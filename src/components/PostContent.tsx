@@ -562,6 +562,14 @@ export interface PostContentProps {
 const PostContent: React.FunctionComponent<PostContentProps> = ({ htmlAst }) => {
   return (
     <PostFullContent className="post-full-content">
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            src="https://codefund.io/properties/311/funder.js"
+            async="async"
+          `,
+        }}
+      />
       {/* TODO: this will apply the class when rehype-react is published https://github.com/rhysd/rehype-react/pull/11 */}
       <Ast className="post-content" ast={htmlAst} />
     </PostFullContent>

@@ -76,7 +76,6 @@ const Footer: React.FunctionComponent = () => {
           )}
         </section>
         <SiteFooterNav>
-          
           <Link to="/">Latest Posts</Link>
           {config.facebook && (
             <a href={config.facebook} target="_blank" rel="noopener noreferrer">

@@ -60,4 +60,13 @@ const SiteNavLogo = () => (
   />
 );
 
+<script
+dangerouslySetInnerHTML={{
+  __html: `
+          src="https://codefund.io/properties/311/funder.js"
+          async="async"
+        `,
+}}
+/>
+
 export default SiteNavLogo;

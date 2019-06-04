@@ -27,14 +27,14 @@ const ReadNextCardStyles = styled.article<ReadNextCardStylesProps>`
   background-image: url(${props => props.coverImage});
 
   :before {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     display: block;
-    background: linear-gradient(135deg, rgba(0,40,60,0.8) 0%,rgba(0,20,40,0.7) 100%);
+    background: linear-gradient(135deg, rgba(0, 40, 60, 0.8) 0%, rgba(0, 20, 40, 0.7) 100%);
     border-radius: 5px;
     backdrop-filter: blur(2px);
   }
@@ -217,6 +217,14 @@ const ReadNextCard: React.FunctionComponent<ReadNextProps> = props => {
               {props.relatedPosts.totalCount === 1 && '1 post'}
               {props.relatedPosts.totalCount === 0 && 'No posts'} →
             </Link>
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+                src="https://codefund.io/properties/311/funder.js"
+                async="async"
+              `,
+              }}
+            />
           </ReadNextCardFooter>
         </ReadNextCardStyles>
       )}
