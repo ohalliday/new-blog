@@ -565,8 +565,8 @@ const PostContent: React.FunctionComponent<PostContentProps> = ({ htmlAst }) => 
       <script
         dangerouslySetInnerHTML={{
           __html: `
-            src="https://codefund.io/properties/311/funder.js"
-            async="async"
+          <div id="codefund"></div>
+          <script src="https://codefund.io/properties/311/funder.js" async="async"></script>
           `,
         }}
       />
