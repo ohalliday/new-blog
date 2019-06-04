@@ -1,5 +1,5 @@
 import React from 'react';
-import loadScript from '../utils/loadScript.jsx';
+import loadScript from '../utils/loadScript';
 
 class AdCodeFund extends React.Component {
   componentDidMount() {
