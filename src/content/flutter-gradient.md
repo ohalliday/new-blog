@@ -7,8 +7,10 @@ date: 2019-06-01T07:03:47.149Z
 tags: 
   - Flutter
   - Mobile Development
-draft:
 ---
+
+<div id="codefund"><!-- fallback content --></div>
+<script src="https://codefund.io/properties/311/funder.js" async="async"></script>
 
 In this post we'll be covering how to use gradients within Flutter. Gradients can make an application look beautiful, and they're simpler than ever to use in Flutter.
 
