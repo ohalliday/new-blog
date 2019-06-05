@@ -2,7 +2,6 @@ import { lighten, setLightness, darken, setSaturation } from 'polished';
 import * as React from 'react';
 import styled from '@emotion/styled';
 import RehypeReact from 'rehype-react';
-
 import { colors } from '../styles/colors';
 import AdCodeFund from './AdCodeFund';
 
@@ -566,7 +565,6 @@ const PostContent: React.FunctionComponent<PostContentProps> = ({ htmlAst }) => 
     <AdCodeFund></AdCodeFund>
       {/* TODO: this will apply the class when rehype-react is published https://github.com/rhysd/rehype-react/pull/11 */}
       <Ast className="post-content" ast={htmlAst} />
-    <AdCodeFund></AdCodeFund>
     </PostFullContent>
   );
 };
