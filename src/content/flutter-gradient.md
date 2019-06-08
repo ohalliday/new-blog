@@ -246,3 +246,159 @@ body: Container(
 Let's have a look at what that gives us now:
 
 ![Application](img/gradients/gradients6.png)
+
+Okay, we've now got a gradient with multiple colours, so let's try and change the alignment of our gradient:
+
+```dart
+body: Container(
+  decoration: BoxDecoration(
+      gradient: RadialGradient(
+        colors: [Colors.green, Colors.blue, Colors.orange, Colors.pink],
+        stops: [0.2, 0.5, 0.7, 1],
+        center: Alignment(0.1, 0.3),
+      ),
+      ),
+  child: Center(
+    child: Text(
+      'Gradients are cool!',
+      style: TextStyle(
+        fontSize: 35,
+        color: Colors.white,
+      ),
+    ),
+  ),
+),
+```
+
+As you can see, we've added the `center` property to our gradient, which should shift it downwards and to the right. Let's have a look at our application now:
+
+![Application](img/gradients/gradients7.png)
+
+Great! We've actually moved our gradient to a different position on the screen now, which is quite interesting. Depending on the values that we assign to our `center` property, our gradient could be placed anywhere.
+
+Another thing we can do is change the focal point of our gradient. We can do that by adding the `focal` property to our gradient. Let's do that:
+
+```dart
+body: Container(
+  decoration: BoxDecoration(
+      gradient: RadialGradient(
+        colors: [Colors.green, Colors.blue, Colors.orange, Colors.pink],
+        stops: [0.2, 0.5, 0.7, 1],
+        center: Alignment(0.1, 0.3),
+        focal: Alignment(-0.1, 0.6),
+      ),
+      ),
+  child: Center(
+    child: Text(
+      'Gradients are cool!',
+      style: TextStyle(
+        fontSize: 35,
+        color: Colors.white,
+      ),
+    ),
+  ),
+),
+```
+
+Let's see what that gives us now:
+
+![Application](img/gradients/gradients8.png)
+
+Cool, we've now changed the focal point of our radial gradient. But what if we wanted to change the size of our focal point? We can do that by using the `focalRadius` property on our gradient. Here's how we'd do that:
+
+```dart
+body: Container(
+  decoration: BoxDecoration(
+      gradient: RadialGradient(
+        colors: [Colors.green, Colors.blue, Colors.orange, Colors.pink],
+        stops: [0.2, 0.5, 0.7, 1],
+        center: Alignment(0.1, 0.3),
+        focal: Alignment(-0.1, 0.6),
+        focalRadius: 2,
+      ),
+      ),
+  child: Center(
+    child: Text(
+      'Gradients are cool!',
+      style: TextStyle(
+        fontSize: 35,
+        color: Colors.white,
+      ),
+    ),
+  ),
+),
+```
+
+Let's see what our app is looking like now:
+
+![Application](img/gradients/gradients9.png)
+
+As we can see, our gradient has drasically increased in size.
+
+Next up we're going to explore how to use **sweep gradients** in Flutter.
+
+## Sweep Gradients
+
+Sweep Gradients are similar to the other two gradients, however they take in properties such as `startAngle` and `endAngle`. Let's implement a sweep gradient into our application with some colour and some `stops`:
+
+```dart
+body: Container(
+  decoration: BoxDecoration(
+      gradient: SweepGradient(
+        colors: [Colors.blue, Colors.green, Colors.yellow, Colors.red, Colors.blue],
+        stops: [0.0, 0.25, 0.5, 0.75, 1],
+      ),
+      ),
+  child: Center(
+    child: Text(
+      'Gradients are cool!',
+      style: TextStyle(
+        fontSize: 35,
+        color: Colors.white,
+      ),
+    ),
+  ),
+),
+```
+
+Let's now have a look at our application:
+
+![Application](img/gradients/gradients10.png)
+
+Awesome. With sweep gradients, we can actually create some pretty cool effects with the `startAngle` and `endAngle` properties. Let's experiment a little bit:
+
+```dart
+body: Container(
+  decoration: BoxDecoration(
+      gradient: SweepGradient(
+        colors: [Colors.blue, Colors.green, Colors.yellow, Colors.red, Colors.blue],
+        stops: [0.0, 0.25, 0.5, 0.75, 1],
+        startAngle: 0.5,
+        endAngle: 1
+      ),
+      ),
+  child: Center(
+    child: Text(
+      'Gradients are cool!',
+      style: TextStyle(
+        fontSize: 35,
+        color: Colors.white,
+      ),
+    ),
+  ),
+),
+```
+
+Now, let's have a look at what our app looks like:
+
+![Application](img/gradients/gradients11.png)
+
+As you can see, we've created a rainbow effect on our screen. This is just one of the many awesome things that we can do with gradients in Flutter.
+
+---
+
+In this post we’ve learned how to create three types of gradients in Flutter, a **linear gradient**, a **radial gradient** and a **sweep gradient**. We've also learned how to assign different properties to our gradients in order to make them look different.
+
+I hope you’ve taken a lot from this post, and don’t forget to subscribe for future Flutter content! <3
+
+The source code for this project can be found here: [https://github.com/ohalliday/flutter-gradients](https://github.com/ohalliday/flutter-gradients)
