@@ -15,9 +15,10 @@ const styles = theme => ({
         float: 'left',
         marginLeft: -130,
         marginRight: theme.spacing(1),
+        marginBottom: -100,
       },
       '& img': {
-        verticalAlign: 'middle',
+        verticalAlign: '',
       },
       '& a': {
         color: theme.palette.text.primary,

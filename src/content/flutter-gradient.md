@@ -4,14 +4,14 @@ title: Using Gradients in Flutter
 image: img/gradients/gradientcover.png
 author: Owen
 date: 2019-06-01T07:03:47.149Z
-tags: 
+tags:
   - Flutter
   - Mobile Development
 ---
 
 In this post we'll be covering how to use gradients within Flutter. Gradients can make an application look beautiful, and they're simpler than ever to use in Flutter.
 
->If you aren't familiar with Flutter, then you can check out my Introduction to Flutter post [here](https://owenhalliday.co.uk/introduction-to-flutter/).
+> If you aren't familiar with Flutter, then you can check out my Introduction to Flutter post [here](https://owenhalliday.co.uk/introduction-to-flutter/).
 
 ## Project Setup
 
@@ -222,3 +222,27 @@ As you can see, implementing a radial gradient is very simple. Let's have a look
 Great! We can see that our gradient is fully working and is circle shaped, hence the name **radial**. Let's now try and change the appearance of our gradient by assigning some properties.
 
 We'll start by adding some more colours, as well as the `stops` property.
+
+```dart
+body: Container(
+  decoration: BoxDecoration(
+      gradient: RadialGradient(
+        colors: [Colors.green, Colors.blue, Colors.orange,Colors.pink],
+        stops: [0.2, 0.5, 0.7, 1]
+      ),
+      ),
+  child: Center(
+    child: Text(
+      'Gradients are cool!',
+      style: TextStyle(
+        fontSize: 35,
+        color: Colors.white,
+      ),
+    ),
+  ),
+),
+```
+
+Let's have a look at what that gives us now:
+
+![Application](img/gradients/gradients6.png)

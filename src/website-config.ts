@@ -50,7 +50,7 @@ export interface WebsiteConfig {
 
 const config: WebsiteConfig = {
   title: 'Owen Halliday',
-  description: '17 y/o Software Developer.',
+  description: '17 y/o Software Developer 👨‍💻',
   coverImage: '',
   logo: 'img/colour-logo.png',
   lang: 'en',
