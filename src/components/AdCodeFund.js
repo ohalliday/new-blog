@@ -46,7 +46,7 @@ class AdCodeFund extends React.Component {
       return;
     }
 
-    loadScript('https://codefund.io/properties/137/funder.js?theme=styled', scriptSlot);
+    loadScript('https://codefund.io/properties/311/funder.js?theme=styled', scriptSlot);
   }
 
   render() {
