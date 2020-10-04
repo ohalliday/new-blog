@@ -1,16 +1,16 @@
 ---
 layout: post
-title: "A Guide to Text Styling in Flutter"
+title: 'A Guide to Text Styling in Flutter'
 author: Owen
-tags: ["Flutter"]
-image: img/demo4.jpg
-date: "2019-05-28T15:11:55.000Z"
+tags: ['Flutter']
+image: img/text-styling/text-style-thumb.png
+date: '2019-05-28T15:11:55.000Z'
 draft: false
 ---
 
-Text is a massive part of any mobile application, so making sure it looks great and is easy to read is essential. In this guide I'm going to be covering methods in which text can be styled in Flutter. This includes using custom fonts, sizing, fontWeight, global theming and more. 
+Text is a massive part of any mobile application, so making sure it looks great and is easy to read is essential. In this guide I'm going to be covering methods in which text can be styled in Flutter. This includes using custom fonts, sizing, fontWeight, global theming and more.
 
->If you aren't familiar with Flutter, then you can check out my Introduction to Flutter post [here](https://owenhalliday.co.uk/introduction-to-flutter/).
+> If you aren't familiar with Flutter, then you can check out my Introduction to Flutter post [here](https://owenhalliday.co.uk/introduction-to-flutter/).
 
 # Project Setup
 
@@ -55,17 +55,15 @@ We should be seeing something like this:
 
 ![text-styling](img/text-styling/textstyling1.png)
 
-As we can see, we've got an `AppBar` with a title, and a `Text` widget which is centered in the middle of the screen.   Now let's move onto styling our `Text` widget.
+As we can see, we've got an `AppBar` with a title, and a `Text` widget which is centered in the middle of the screen. Now let's move onto styling our `Text` widget.
 
 ## Text Properties
 
 Inside of our application, we're going to be supplying our `Text` widget with a `TextStyle`. This allows us to assign a number of properties, including `fontSize`, `fontWeight` and `color`. Let's assign those properties to our `Text` widget:
 
-
-
 ```dart
 body: Center(
-    child: Text('This is some text!', 
+    child: Text('This is some text!',
     style: TextStyle(
       fontSize: 60.0,
       fontWeight: FontWeight.bold,
@@ -116,15 +114,15 @@ To work with our fonts, we're going to have to import the font files into our pr
 
 Place your font files inside of the `fonts` folder you just created. Next up, we're going to have to declare our new custom font inside of our `pubspec.yaml`, so our Flutter application knows where to find it. For instance:
 
-``` yaml
+```yaml
 # Replace Roboto Mono and assets with your chosen font
 
- fonts:
-     - family: Roboto Mono
-       fonts:
-         - asset: fonts/RobotoMono-Regular.ttf
-         - asset: fonts/RobotoMono-Bold.ttf
-           weight: 700
+fonts:
+  - family: Roboto Mono
+    fonts:
+      - asset: fonts/RobotoMono-Regular.ttf
+      - asset: fonts/RobotoMono-Bold.ttf
+        weight: 700
 ```
 
 ### Setting A Default Custom Font
@@ -174,7 +172,7 @@ return MaterialApp(
         ),
         body: Center(
           child: Text('This is some text!',
-          textAlign: TextAlign.center,    
+          textAlign: TextAlign.center,
           style: TextStyle(
             fontSize: 60.0,
             fontWeight: FontWeight.bold,
@@ -196,5 +194,5 @@ Awesome. We've now assigned our `Text` widget a specific font, seperate from the
 
 I hope you've learned a lot throughout this post, be sure to subscribe to keep up-to-date with any future Flutter content!
 
->The source code for this project can be found here:
->[https://github.com/ohalliday/text-styling-flutter](https://github.com/ohalliday/text-styling-flutter)
+> The source code for this project can be found here:
+> [https://github.com/ohalliday/text-styling-flutter](https://github.com/ohalliday/text-styling-flutter)
