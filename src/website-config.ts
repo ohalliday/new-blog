@@ -50,7 +50,7 @@ export interface WebsiteConfig {
 
 const config: WebsiteConfig = {
   title: 'Owen Halliday',
-  description: '17 y/o Software Developer 👨‍💻',
+  description: '18 y/o Software Developer 👨‍💻',
   coverImage: '',
   logo: 'img/colour-logo.png',
   lang: 'en',
@@ -58,7 +58,8 @@ const config: WebsiteConfig = {
   facebook: 'https://www.facebook.com/owenhalliday.co.uk',
   twitter: 'https://twitter.com/owenhalliday1',
   showSubscribe: true,
-  mailchimpAction: 'https://gmail.us20.list-manage.com/subscribe/post?u=495c232084f291d2604a7042f&amp;id=b4e5612d1d',
+  mailchimpAction:
+    'https://gmail.us20.list-manage.com/subscribe/post?u=495c232084f291d2604a7042f&amp;id=b4e5612d1d',
   mailchimpName: 'b_495c232084f291d2604a7042f_b4e5612d1d',
   mailchimpEmailFieldName: 'MERGE0',
   footer: '',
